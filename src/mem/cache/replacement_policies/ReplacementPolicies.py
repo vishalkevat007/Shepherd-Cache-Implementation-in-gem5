@@ -68,6 +68,12 @@ class LRURP(BaseReplacementPolicy):
     cxx_class = 'gem5::replacement_policy::LRU'
     cxx_header = "mem/cache/replacement_policies/lru_rp.hh"
 
+class SHPRP(BaseReplacementPolicy):
+    type = 'SHPRP'
+    cxx_class = 'gem5::replacement_policy::SHP'
+    cxx_header = "mem/cache/replacement_policies/shp_rp.hh"
+    associativity = Param.Int(8,"Cache Associativity")
+
 class BIPRP(LRURP):
     type = 'BIPRP'
     cxx_class = 'gem5::replacement_policy::BIP'
