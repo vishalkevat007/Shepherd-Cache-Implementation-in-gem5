@@ -41,3 +41,9 @@ https://gem5.googlesource.com/public/gem5-resources/
 If you have questions, please send mail to gem5-users@gem5.org
 
 Enjoy using gem5 and please share your modifications and extensions.
+
+
+# Report
+
+For a detailed explanation and documentation of the implementation, please refer to the [Project Report PDF](./Project_Group26.pdf).
+
